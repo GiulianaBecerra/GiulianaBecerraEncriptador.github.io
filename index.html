@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer challenge Alura-ONE</title>
+    <link rel="stylesheet" href="estilo.css">
+   <img  src =" https://app.aluracursos.com/assets/images/logos/logo-aluraespanhol.svg " width="150" height="100" align ="left"/>
+  <img  src =" https://www.oracle.com/a/ocom/img/rh03-lad-one-logo.png " width="290" height="200" align ="right"/>
+
+</head>
+
+<body>
+    <h1 class="title" id="main-title">Encriptador de texto-Challenge Principiante en programacion</h1>
+
+    <main class="main">
+        <div class="form box">
+            <h2 id="first-msg">Escriba su mensaje:</h2>
+            <form action="">
+                <label for="input-text" id="sub-msg">El mensaje sólo puede contener letras minúsculas, sin números ni caracteres especiales.</label>
+                <input class="text-input" type="text" name="input-text" id="input" placeholder="Ingrese el texto aquí.">
+                <span id="error" class="invisible"></span>
+                <div class=buttons>
+                    <input class="btn" type="submit" value="Encriptar" id="btn-encrypt">
+                    <input class="btn" type="submit" value="Desencriptar" id="btn-decrypt">
+                </div>
+            </form>
+        </div>
+
+        <div class="msg box">
+            <h2 id="second-msg">Mensaje encriptado:</h2>
+            <input class="text-input" type="text" id="output" readonly="readonly"></input>
+            <div class=buttons>
+                <input class="btn" type="submit" value="Copiar" id="btn-copy">
+            </div>
+        </div>
+
+    </main>
+    <script src="form.js"></script>
+    <script src="val-errores.js"></script>
+    <script src="botones-funciones.js"></script>
+    <script src="botones.js"></script>
+
+<footer>
+   <h1> Copyright © 2022 Giuliana Becerra</h1>
+</footer>
+</body>
+
+</html>
